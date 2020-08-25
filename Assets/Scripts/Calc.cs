@@ -77,7 +77,7 @@ public class Calc : MonoBehaviour
         //hi = Ui
         c2 = 0.775f * hotFlowRateValue/coldFlowRateValue;
         c3 = 6845 * Mathf.Pow(hotFlowRateValue,(2/3));
-        thoutCalculator();
-        tcoutCalculator();
+        thoutCalculator();   //sieder-tate
+        tcoutCalculator();   //sieder-tate
     }
 }
